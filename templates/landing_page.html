@@ -1,0 +1,12 @@
+{% extends "base.html" %} {% block title %}{{ super() }}{% endblock %} {% block content %}
+
+<section class="hero">
+    <div class="hero-content">
+        <img src="{{ url_for('static', filename='image/profile.jpg') }}" class="profile-image" />
+        <h1>{{profile.name}}</h1>
+        <h2>{{profile.role}}</h2>
+        <p class="hero-description">{{profile.description}}</p>
+    </div>
+</section>
+
+{% endblock %}

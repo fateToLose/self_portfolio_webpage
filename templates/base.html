@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <title>Kenneth Portfolio</title>
+        <title>{% block title %}Kenneth | Portfolio{% endblock %}</title>
         <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
     </head>
@@ -11,20 +11,40 @@
         <header>
             <nav>
                 <div class="logo">
-                    <a href="homepage.html">Portfolio</a>
+                    <a href="{{ url_for('home') }}">Portfolio</a>
                 </div>
                 <ul class="nav-links">
                     <li>
-                        <a href="homepage.html" class="active">Home</a>
+                        <a href="{{ url_for('home') }}" class="{{ 'active' if  active_page == 'home' }}">Home</a>
                     </li>
                     <li>
-                        <a href="experience.html">Portfolio</a>
+                        <a href="{{ url_for('portfolio_page') }}" class="{{ 'active' if active_page == 'portfolio' }}"
+                            >Portfolio</a
+                        >
                     </li>
                     <li>
-                        <a href="portfolio.html">Contact Me</a>
+                        <a href="{{ url_for('contact_me') }}" class="{{ 'active' if active_page =='contact' }}"
+                            >Contact Me</a
+                        >
                     </li>
                 </ul>
             </nav>
         </header>
+
+        <main>{% block content %}{% endblock %}</main>
+
+        <footer>
+            <div class="footer-content">
+                <div class="social-links">
+                    <a href="https://github.com/fatetolose" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/kenneth-lim-4461b9180" target="_blank"
+                        ><i class="fab fa-linkedin"></i
+                    ></a>
+                </div>
+                <p>&copy; 2025 Kenneth Lim. All rights reserved.</p>
+            </div>
+        </footer>
+
+        <script src="{{ url_for('static', filename='js/script.js') }}"></script>
     </body>
 </html>
