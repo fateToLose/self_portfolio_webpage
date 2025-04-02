@@ -86,3 +86,4 @@ venv.bak/
 *.ipynb
 *.db
 __reference__
+.vscode
