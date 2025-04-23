@@ -1,6 +1,6 @@
 :root {
     --primary-color: #ffffff;
-    --secondary-color: #ffffff;
+    --secondary-color: #409cda;
     --accent-color: #e74c3c;
     --background-color: #000000;
     --light-color: #ffffff;
@@ -58,7 +58,7 @@ nav {
 .logo a {
     font-size: 1.5rem;
     font-weight: bold;
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 .nav-links {
     display: flex;
@@ -67,7 +67,7 @@ nav {
 }
 
 .nav-links a {
-    color: var(--secondary-color);
+    color: var(--primary-color);
     font-weight: 500;
     transition: var(--transition);
     padding: 0.5rem;
@@ -96,7 +96,7 @@ main {
         url("../image/profile.jpg") center/cover no-repeat;
     color: white;
     text-align: center;
-    padding: 5rem 1rem;
+    padding: 1rem 1rem;
 }
 
 .hero-content {
@@ -174,4 +174,93 @@ footer {
 .social-links a:hover {
     color: var(--primary-color);
     transform: translateY(-3px);
+}
+
+/* Timeline Sections */
+.timeline {
+    padding: 2rem 1rem;
+    background-color: var(--background-color);
+}
+
+.timeline:nth-child(even) {
+    background-color: var(--background-color);
+}
+
+.timeline-container {
+    max-width: 750px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.timeline-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 3px;
+    background-color: var(--primary-color);
+    margin-left: 17px;
+}
+
+.timeline-item {
+    margin-bottom: 3rem;
+    position: relative;
+    padding-left: 60px;
+}
+
+.timeline-date {
+    position: absolute;
+    left: 0;
+    width: 37px;
+    height: 37px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--light-color);
+    font-size: 0.8rem;
+}
+
+.timeline-date span {
+    position: absolute;
+    width: max-content;
+    right: 50px;
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+.timeline-content {
+    background-color: var(--background-color);
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-content h3 {
+    color: var(--text-color);
+    margin-bottom: 0.5rem;
+}
+
+.timeline-content h4 {
+    color: var(--text-color);
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+
+.timeline-content p {
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    color: var(--text-color);
+}
+
+.achievements {
+    margin-top: 1rem;
+    padding-left: 1.5rem;
+}
+
+.achievements li {
+    list-style-type: disc;
+    margin-bottom: 0.5rem;
 }

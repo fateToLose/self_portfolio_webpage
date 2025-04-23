@@ -1,0 +1,25 @@
+[
+    {
+        "title": "Data Analyst",
+        "company": "United Overseas Bank",
+        "location": "Singapore",
+        "start_date": "Oct 2022",
+        "end_date": "Present",
+        "description": "Develop automated tools to help the team with data collection and reporting. Collaborate with various stakeholders to understand their needs and provide data-driven insights and intiatives.",
+        "achievements": [
+            "Developed and optimised internal crawler tools to alleivate desktop research tasks via NLP techniques, which improved the runtime and performance by 30%.",
+            "Created and maintained automated pipelines to collect and process data from various sources, including web scraping, APIs, and databases.",
+            "Designed and implemented dashboards via QlikSense for both management and working-level users, which improved data visibility and accessibility.",
+            "Collaborated with cross-functional teams to identify and prioritize data-driven initiatives."
+        ]
+    },
+    {
+        "title": "Empty Space",
+        "company": "Empty Space",
+        "location": "Empty Space",
+        "start_date": "2022",
+        "end_date": "2023",
+        "description": "Test Desc",
+        "achievements": ["Test Achievements", "Test Achievements", "Test Achievements", "Test Achievements"]
+    }
+]

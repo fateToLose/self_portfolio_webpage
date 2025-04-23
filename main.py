@@ -15,7 +15,8 @@ def load_json_data(filename):
 @app.route("/")
 def home():
     profile = load_json_data("profile.json")
-    return render_template("landing_page.html", profile=profile, active_page="home")
+    cv = load_json_data("cv.json")
+    return render_template("landing_page.html", profile=profile, cv=cv, active_page="home")
 
 
 @app.route("/portfolio")
