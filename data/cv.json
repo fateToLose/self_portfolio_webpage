@@ -14,12 +14,17 @@
         ]
     },
     {
-        "title": "Empty Space",
-        "company": "Empty Space",
-        "location": "Empty Space",
-        "start_date": "2022",
-        "end_date": "2023",
-        "description": "Test Desc",
-        "achievements": ["Test Achievements", "Test Achievements", "Test Achievements", "Test Achievements"]
+        "title": "Student",
+        "company": "SIM UOL - Bachelor of Science (Hons), Economic and Finance (Classification: 2nd Upper)",
+        "location": "Singapore",
+        "start_date": "2017",
+        "end_date": "2020",
+        "description": "Relevant Modules taken:",
+        "achievements": [
+            "Machine Learning",
+            "Business Analytics Modelling and Predictions",
+            "Elements of Econometrics",
+            "Quantitative Finance"
+        ]
     }
 ]

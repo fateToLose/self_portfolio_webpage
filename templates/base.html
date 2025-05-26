@@ -11,7 +11,7 @@
         <header>
             <nav>
                 <div class="logo">
-                    <a href="{{ url_for('home') }}">Portfolio</a>
+                    <a href="{{ url_for('home') }}">Kenneth Lim</a>
                 </div>
                 <ul class="nav-links">
                     <li>
@@ -19,7 +19,14 @@
                     </li>
                     <li>
                         <a href="{{ url_for('portfolio_page') }}" class="{{ 'active' if active_page == 'portfolio' }}"
-                            >Portfolio</a
+                            >Projects</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="{{ url_for('photo_showcase_page') }}"
+                            class="{{ 'active' if active_page == 'photo_showcase' }}"
+                            >Photo Showcase</a
                         >
                     </li>
                     <li>

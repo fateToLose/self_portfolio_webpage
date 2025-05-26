@@ -21,7 +21,13 @@ def home():
 
 @app.route("/portfolio")
 def portfolio_page():
-    return render_template("portfolio.html", active_page="portfolio")
+    projects = load_json_data("projects.json")
+    return render_template("portfolio.html", projects=projects, active_page="portfolio")
+
+
+@app.route("/photo_showcase")
+def photo_showcase_page():
+    return render_template("photo_showcase.html", active_page="photo_showcase")
 
 
 @app.route("/contact")

@@ -1,0 +1,47 @@
+[
+    {
+        "title": "LLM Chatbot (Telegram)",
+        "category": "GenAI Application",
+        "description": "A Telegram bot that uses multi large language model to answer user queries and provide information.",
+        "image": "bot_tele.png",
+        "live_url": "",
+        "github_url": "https://github.com/fateToLose/tele_bot_with_llm",
+        "technologies": ["Python", "REST API", "Telegram Bot API", "SQLite"]
+    },
+    {
+        "title": "Portfolio Webpage",
+        "category": "Web Development",
+        "description": "A personal portfolio webpage showcasing my projects, skills, and experiences.",
+        "image": "self_webpage.png",
+        "live_url": "",
+        "github_url": "",
+        "technologies": ["Flask", "HTML", "CSS", "JavaScript"]
+    },
+    {
+        "title": "Advent Code Challenge",
+        "category": "DSA Challenge Journey",
+        "description": "A series of coding challenges from Advent of Code, showcasing problem-solving skills in data structures and algorithms.",
+        "image": "advent_of_code.jpeg",
+        "live_url": "",
+        "github_url": "https://github.com/fateToLose/advent_code",
+        "technologies": ["Python", "Data Structures", "Algorithms"]
+    },
+    {
+        "title": "Data Analysis Projects",
+        "category": "Data Analysis",
+        "description": "A collection of data analysis projects using Python, Pandas, and Matplotlib.",
+        "image": "",
+        "live_url": "",
+        "github_url": "",
+        "technologies": ["Python", "Pandas", "Matplotlib"]
+    },
+    {
+        "title": "Web Scraping Tools",
+        "category": "Web Scraping",
+        "description": "Tools developed for web scraping tasks using Python and BeautifulSoup.",
+        "image": "",
+        "live_url": "",
+        "github_url": "",
+        "technologies": ["Python", "BeautifulSoup", "Requests"]
+    }
+]
