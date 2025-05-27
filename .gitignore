@@ -87,3 +87,7 @@ venv.bak/
 *.db
 __reference__
 .vscode
+
+# Local Files Ignores
+/static/image/showcase/*
+/static/image/project/*
