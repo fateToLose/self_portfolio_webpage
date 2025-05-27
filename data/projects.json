@@ -27,21 +27,21 @@
         "technologies": ["Python", "Data Structures", "Algorithms"]
     },
     {
-        "title": "Data Analysis Projects",
-        "category": "Data Analysis",
-        "description": "A collection of data analysis projects using Python, Pandas, and Matplotlib.",
+        "title": "Placeholder 1",
+        "category": "Placeholder 1",
+        "description": "Test message for placeholder 1.",
         "image": "",
         "live_url": "",
         "github_url": "",
-        "technologies": ["Python", "Pandas", "Matplotlib"]
+        "technologies": ["Python"]
     },
     {
-        "title": "Web Scraping Tools",
+        "title": "Placeholder 2",
         "category": "Web Scraping",
-        "description": "Tools developed for web scraping tasks using Python and BeautifulSoup.",
+        "description": "A web scraping project that collects data from various websites.",
         "image": "",
         "live_url": "",
         "github_url": "",
-        "technologies": ["Python", "BeautifulSoup", "Requests"]
+        "technologies": ["Python", "Selenium", "Requests", "BeautifulSoup"]
     }
 ]
