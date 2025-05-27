@@ -90,4 +90,5 @@ __reference__
 
 # Local Files Ignores
 /static/image/showcase/*
-/static/image/project/*
+/static/image/projects/*
+/static/image/*
