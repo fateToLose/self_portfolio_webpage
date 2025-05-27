@@ -27,7 +27,8 @@ def portfolio_page():
 
 @app.route("/photo_showcase")
 def photo_showcase_page():
-    return render_template("photo_showcase.html", active_page="photo_showcase")
+    photos = load_json_data("photo.json")
+    return render_template("photo_showcase.html", photos=photos, active_page="photo_showcase")
 
 
 @app.route("/contact")

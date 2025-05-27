@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "title": "Photo 1",
+        "image": "photo_1.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Photo 2",
+        "image": "photo_2.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Photo 3",
+        "image": "photo_3.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Photo 4",
+        "image": "photo_4.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Photo 5",
+        "image": "photo_5.jpg"
+    },
+    {
+        "id": 6,
+        "title": "Photo 6",
+        "image": "photo_6.jpg"
+    },
+    {
+        "id": 7,
+        "title": "Photo 7",
+        "image": "photo_7.jpg"
+    },
+    {
+        "id": 8,
+        "title": "Photo 8",
+        "image": "photo_8.jpg"
+    },
+    {
+        "id": 9,
+        "title": "Photo 9",
+        "image": "photo_9.jpg"
+    }
+]

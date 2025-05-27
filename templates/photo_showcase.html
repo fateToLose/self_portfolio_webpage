@@ -2,7 +2,19 @@
 
 <section class="page-header">
     <h1>Photo Showcase (Hobby)</h1>
-    <p>Sharing some of my favourtive shots</p>
+    <p>Sharing some of my favourite shots</p>
 </section>
 
+<section class="photoshowcase-grid">
+    {% for photo in photos %}
+    <div class="photo-item">
+        <div class="photo-image">
+            <img src="{{ url_for('static', filename='image/showcase/' + photo.image) }}" alt="{{ photo.title }}" />
+        </div>
+        <!-- <div class="photo-info">
+            <h3 class="photo-title">{{ photo.title }}</h3>
+        </div> -->
+    </div>
+    {% endfor %}
+</section>
 {% endblock %}
